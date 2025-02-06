@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETE-A-TETE Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .menu-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        header, footer {
+            background: #111;
+            padding: 15px;
+            transition: background 0.3s ease;
+        }
+        header:hover {
+            background: #CCFD7F;
+        }
+        footer:hover {
+            background: #CCFD7F;
+        }
+        h1, h2 {
+            color: #fff;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .category {
+            background: #222;
+            padding: 15px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .category:hover {
+            background: #add8e6; /* Light blue hover effect */
+            color: #000;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            border-bottom: 1px solid #555;
+            padding: 5px 0;
+        }
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <header>
+            <h1>TETE - A - TETE</h1>
+            <p>Menu</p>
+        </header>
+        <section class="menu">
+            <div class="category">
+                <h2>COFFEE (hot-cold)</h2>
+                <ul>
+                    <li>Cappuccino (Cinnamon/Vanilla/Mochaccino) - Tk. 220</li>
+                    <li>Cappuccino (Classic) - Tk. 220</li>
+                    <li>Americano - Tk. 220</li>
+                    <li>Espresso (Single/Double) - Tk. 220</li>
+                    <li>Macchiato (Single/Double) - Tk. 220</li>
+                    <li>Latte (Classic/Mocha/Vanilla) - Tk. 220</li>
+                    <li>Latte (Cinnamon/Hazelnut) - Tk. 220</li>
+                    <li>Java (Classic/Mocha/Hazelnut/Vanilla) - Tk. 220</li>
+                    <li>Hot Chocolate - Tk. 220</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2>TEA</h2>
+                <ul>
+                    <li>Regular Tea - Tk. 220</li>
+                    <li>Green Tea - Tk. 220</li>
+                    <li>Earl Grey Tea - Tk. 220</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2>THIRST QUENCHERS</h2>
+                <ul>
+                    <li>Lemon Mint Ice Tea - Tk. 220</li>
+                    <li>Mojito - Tk. 220</li>
+                    <li>Citrus Drops - Tk. 220</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2>SHAKES</h2>
+                <ul>
+                    <li>Mojito - Tk. 220</li>
+                    <li>Citrus Drops - Tk. 220</li>
+                    <li>Chocolate/Vanilla/Caramel - Tk. 220</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2>DESSERTS</h2>
+                <ul>
+                    <li>Mojito - Tk. 220</li>
+                    <li>Citrus Drops - Tk. 220</li>
+                    <li>Chocolate/Vanilla/Caramel - Tk. 220</li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <h2>TETE - A - TETE</h2>
+            <p>📞 +8801712600748</p>
+            <p>📍 H-19/20, R-113/A, Gulshan-2, Dhaka</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
